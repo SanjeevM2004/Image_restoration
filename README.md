@@ -26,6 +26,8 @@ To train the denoising model, navigate to the project directory and run the trai
 ```bash
 python main_train_psnr.py --opt options/swinir/train_swinir_denoising_color.json
 ```
+## Using pretrained models
+For training or testing on a few images you can refer to my colab notebook `CS6777_Seminar_training.ipynb`
 
 ## Image Conversion
 The notebook includes functions to convert images from various formats (JPEG, JPG, TIF, PNG) to PNG format and to generate Low-Resolution (LR) images from High-Resolution (HR) images.
